@@ -7,10 +7,10 @@ date = input("Enter the date you want to go back to (YYYY-MM-DD): ")
 
 sp_oauth = spotipy.Spotify(
     auth_manager=SpotifyOAuth
-    (scope="playlist-modify-private",
-     redirect_uri="http://example.com",
-     client_id='029a6d14995a4f6b9f58313422300b50',
-     client_secret='8b4deab1fe27476aa5f7ed3e2d4f31bf'
+    (scope="my scope",
+     redirect_uri="my uri",
+     client_id='my client id',
+     client_secret='my client secret'
      )
 )
 
